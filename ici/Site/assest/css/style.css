@@ -1,0 +1,327 @@
+
+.disable-login-button{
+	cursor: not-allowed !important;
+    pointer-events: none !important;
+    display: inline-block;
+	}
+.captcha-text-field{
+	background-color: #fff;
+    border: .1em solid #ccc;
+    width: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-top: 0px !important;
+    height: 1.8em !important;
+    border-bottom-width: .1em;
+    font-size: 1em;
+}
+
+.captch-place-holder-align{
+margin-top: 5px;
+margin-left: -25px !important;
+}
+.catpcha-image img {
+height: 32px;
+width: 150px;
+}
+.captch-row{
+margin-top: 15px;
+padding-bottom: 10px;
+}
+.catpcha-image{
+	width: 160px;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+}
+.catpcha-refresh img{
+    float: right;
+    margin-right: 4px;
+    height: 25px;
+    width: 25px;
+}
+.loginrow-V1{
+font-size: 14px;
+    display: inline-block;
+    vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    float: left;
+    padding-bottom: 12px;
+    margin-top: -8px;
+}
+
+select {
+    font-weight: 400;
+    outline: 0;
+    font-size: 1.15em;
+    width: 100%;
+    background: #fff;
+    -webkit-appearance: menulist;
+    padding: .9em 0 .9em 0;
+    color: #666;
+}
+.loginContainer {
+    padding: 0 1.5em 0em 1.5em;
+    overflow: visible;
+    margin: auto;
+    max-width: 480px;
+}
+
+.continue_new{
+  font-size: .8em;
+  position: relative;
+  
+}
+.forPadding{
+padding-bottom:0px;
+}
+.forPadding_second{
+height:0em;
+}
+input[type="button"]{
+     -webkit-appearance: none;
+     border-radius: 0;
+}
+
+.donothing1{
+	display:none;
+}
+.logo {
+    padding-top: 0.5em;
+    margin: 0 0 1.5em 0;
+}
+.m_marginBottomMinus30{
+margin-top:-30%;
+}
+.countryWidht{
+  width: 13% !important;
+  float: left;
+  margin-left:23px;
+}
+.mobileNumWidht{
+ width: 71% !important;
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 1%;
+  margin-right: -5%;
+}
+
+media="screen">
+        .form-group {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+			height: 57px;
+        }
+        
+        .md-select {
+            position: relative;
+            z-index: 100;
+            display: flex;
+            padding-bottom: 2px;
+            min-width: 15%;
+        }
+        
+        .md-select label {
+            width: 100%;
+        }
+        
+        .md-select [type=text] {
+            background: #fff;
+            cursor: default;
+            display: block;
+            margin-top: 0.5rem;
+            position: relative;
+            text-align: left;
+            text-shadow: none;
+            z-index: 1;
+            outline: none;
+            overflow: hidden;
+            padding: 0.5rem;
+            color: #4A4A4A;
+            font-size: 1rem;
+            width: 100%;
+            height: 25px;
+            border: 2px solid #ccc;
+            -webkit-appearance: none;
+            letter-spacing: 0.08px;
+        }
+        
+        @media (max-width: 767px) {
+            .md-select [type=text] {
+                width: 100%;
+            }
+            .md-select label {
+                width: 100%;
+            }
+        }
+        
+        .md-select [type=text]:focus,
+        .md-select [type=text]:hover {
+            background: #f1f1f1;
+        }
+        
+        
+		
+.md-select::after {
+    background-image: url(assest/img/dropdown.png);
+    content: "";
+    /* position: absolute; */
+    right: 15px;
+    width: 20px;
+    height: 15px;
+    background-repeat: no-repeat;
+    margin-top: 20% !important;
+    transition: 0.4s all ease-in-out;
+    background-size: 11px 7px;
+    transform: translate(-1px, -30%);
+    z-index: 1;
+}
+        
+		.md-select.active::after {
+			transform: rotate(-180deg) translate(8px, 70%);
+			top: 1.6em;
+		}
+        
+        .md-select ul[role=listbox] {
+            background-color: white;
+            cursor: default;
+            list-style: none;
+            line-height: 26px;
+            overflow: hidden;
+            margin: 0;
+            max-height: 0;
+            position: absolute;
+            top: 90%;
+            padding: 0;
+            -webkit-transition: all 0.15s cubic-bezier(0.35, 0, 0.25, 1);
+            -moz-transition: all 0.15s cubic-bezier(0.35, 0, 0.25, 1);
+            transition: all 0.15s cubic-bezier(0.35, 0, 0.25, 1);
+            width: 5.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+            border: none;
+            -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+            -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+        }
+        
+        .md-select ul[role=listbox] li {
+            height: 38px;
+            margin: 0;
+            outline: none;
+            overflow: hidden;
+            padding: 0.5rem;
+            color: #4A4A4A;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .md-select ul[role=listbox] li:focus,
+        .md-select ul[role=listbox] li:hover {
+            background: #f1f1f1;
+        }
+        
+        .md-select.active ul {
+            max-height: 15rem;
+            width: 100%;
+            overflow: auto;
+            padding: 0px;
+            z-index: 130;
+            transition: all 0.2s ease;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+        }
+        
+        .md-select.active .ng-binding::after {
+            transform: rotate(-180deg);
+            top: 0.8em;
+        }
+        
+        .mobile-field {
+            height: 25px;
+            background: #fff;
+            cursor: default;
+            display: block;
+            margin-top: 0.5rem;
+            position: relative;
+            text-align: left;
+            text-shadow: none;
+            z-index: 1;
+            outline: none;
+            overflow: hidden;
+            padding: 0.5rem;
+            color: #4A4A4A;
+            font-size: 1rem;
+            width: 100%;
+            border: 2px solid #ccc;
+            -webkit-appearance: none;
+            letter-spacing: 0.08px;
+        }
+        
+        .dropdown-text-input {
+            margin-right: 0;
+        }
+		</style>
+		
+		<style>
+		.loginContainer .mobileSubmitButton {
+			margin-top: 1em !important;
+		}
+		.loginInputTypeContainer {
+			margin-top: 1em !important;
+			}
+			
+		.logoSize {
+			height: 47px;
+		}
+
+
+
+
+        /* grid css start */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(8, auto);
+            gap: 5px;
+          }
+          
+          .box {
+            background-color: #f2f2f2;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid black;
+            font-size: 12px;
+            width: 25px; /* Set the width of the boxes */
+            height: 18px; /* Set the height of the boxes */
+          }
+          
+          .box input[type="text"] {
+            border: none; /* Remove input border */
+            background-color: transparent; /* Make input background transparent */
+            text-align: center; /* Center align text */
+            font-size: 12px; /* Set font size */
+            width: 100%; /* Set input width to fill the box */
+            height: 100%; /* Set input height to fill the box */
+            outline: none; /* Remove input outline */
+          }
+          
+          /* Loding Gif  */
+          #loadingContainer {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            z-index: 9999;
+          }
+        
+          #loadingContainer p {
+            text-align: center;
+            margin-top: 30%;
+            font-weight: bold;
+          }
